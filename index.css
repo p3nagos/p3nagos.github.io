@@ -9,8 +9,8 @@
 	border-style: solid;
 }
 .logop {
-    width: 0px;
-    height: 0px;
+    width: auto;
+    height: auto;
     background: #f5070700;
   }
 .text-placeholder-3 {
