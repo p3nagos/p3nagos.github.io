@@ -23,3 +23,16 @@
 	line-height: 1.3;
 	text-align: left;
 }
+.tabs-1 {
+	width: auto;
+	height: auto;
+	background: #232323;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+	font-family: "Helvetica";
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+}
