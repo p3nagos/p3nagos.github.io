@@ -23,6 +23,6 @@
 
     <!--Etiquetas abiertas-->
     <img src="https://media.licdn.com/dms/image/v2/C4D12AQE7ZTPNXssGOA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1649683415795?e=2147483647&v=beta&t=wBIOKh0w2DV8vrGgXgPvq1ouPDKNOJRfPIxxPv6-KPo" alt="">
-    
+    <img width="200" height="100" src="https://media.licdn.com/dms/image/v2/C4D12AQE7ZTPNXssGOA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1649683415795?e=2147483647&v=beta&t=wBIOKh0w2DV8vrGgXgPvq1ouPDKNOJRfPIxxPv6-KPo" alt="" loading="lazy">
 </body>
 </html>
