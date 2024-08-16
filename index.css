@@ -1,3 +1,4 @@
+
 .portada {
 	width: auto;
 	height: auto;
@@ -57,7 +58,7 @@ ul li:hover a {
   color: rgb(0, 0, 0); 
   font-weight: bold;
 }
-.map{
+.mapa{
 	width: auto;
 	height: auto;
 	padding: 2px 2px 2px 2px;
@@ -80,6 +81,16 @@ ul li:hover a {
 	width: auto;
   	height: auto;
  	color: #AAAAAA;
+ 	font-family: "Akronim";
+  	font-weight: auto;
+  	font-size: auto;
+  	line-height: 2;
+  	text-align: center;
+}
+.encuentranos{
+	width: auto;
+  	height: auto;
+ 	color: #ffffff;
  	font-family: "Akronim";
   	font-weight: auto;
   	font-size: auto;
