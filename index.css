@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 body{
     background-color: black;
@@ -9,6 +10,7 @@ header{
     width: 100%;
     height: 200px;
     background-color: rgb(0, 0, 0);
+    margin-top: 10px;
 }
 
 .logoGamers{
@@ -20,10 +22,11 @@ header{
     width: 100;
     display: block;
     text-align: center;
-    padding: 1%;   
+    margin-bottom: 10px;
 }
 nav{
     min-width: 250px;
+    display: block;
 }
 ul.menuP {
     font-family: "Chakra Petch", sans-serif;
@@ -39,6 +42,7 @@ ul.menuP {
 ul.menuP li a {
     display: inline-block;
     color: white;
+    font-weight: 500;
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
@@ -53,22 +57,87 @@ ul li:hover a {
   font-weight: bold;
 }
 .videop{
-	width: 90%;
+	width: 100%;
 	height: auto;
-	padding: 2px 2px 2px 2px;
 	background: #000000;
 	border-color: #000000;
-	border-width: 5px;
-	border-style: solid;
     text-align: center;
+     
 	
 }
-#subtitulo1{
+.tituloPaginas{
     text-align: center;
+}
+.subtitulo1{
+    margin: 0 auto;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: "Chakra Petch", system-ui;
+    font-weight: 700;
+    display: block;
 }
 .videoStarkerAir1{
     width: 576px;
     height: 349px;
-    left: -15px;
-    top: 0px;
+    margin: 0 auto;
 }
+footer{
+    background-color: #535353;
+    height: 100px;
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    position: absolute;
+    bottom: 0px;
+    
+}
+.logoIg{
+    width: 45px;
+    height: auto;
+    display: inline-block;
+}
+#instagram{
+    color: #ffffff;
+    font-family: "Roboto", system-ui;
+    font-weight: 900;
+
+}
+#siguenosFooter{
+    display: inline-block;
+    font-family: "Roboto", system-ui;
+    font-weight: 100;
+    font-size: 40px;
+}
+.productosMenu{
+    text-align: center;
+    padding-top: 1px;
+    background-color: #535353;
+    
+
+}
+ul.productosMenu {
+    font-family: "Roboto", system-ui;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #535353;
+	position: sticky;
+    
+}
+ul.productosMenu li a {
+    display: inline-block;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 8px 9px;
+    text-decoration: none;
+    position: sticky;
+}
+ul li:hover a {  
+    background-color: #000000;
+    color: rgb(255, 255, 255); 
+    font-weight: bold;
+  }
