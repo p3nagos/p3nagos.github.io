@@ -1,54 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
 
-.portada {
-	width: auto;
-	height: auto;
-	padding: 1px 1px 1px 1px;
-	background: #000000;
-	border-color: #000000;
-	border-width: 1px;
-	border-style: solid;
-}
-.logop {
-    width: auto;
+.logoGamers{
+    width: 10%;
     height: auto;
-    background: #f5070700;
-  }
-.textoportada {
-	width: auto;
-	height: auto;
-	color: #ffffff;
-	font-family: "BLOKKNeue-Regular";
-	font-weight: auto;
-	font-size: auto;
-	line-height: 1.3;
-	text-align: left;
+    
 }
-ul.horizontal {
+.logoPrincipal{
+    width: 100;
+    display: block;
+    text-align: center;
+    padding: 1%;   
+}
+nav{
+    min-width: 250px;
+}
+ul.menuP {
+    font-family: "Chakra Petch", sans-serif;
+    text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #535353;
+	position: sticky;
+    
 }
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    unicode-bidi: isolate;
-}body {
-    font-family: Verdana, sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
-}ul.horizontal li a {
+ul.menuP li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 16px;
     text-decoration: none;
+    position: sticky;
 }
 li {
   display: inline;
@@ -58,42 +52,23 @@ ul li:hover a {
   color: rgb(0, 0, 0); 
   font-weight: bold;
 }
-.mapa{
-	width: auto;
-	height: auto;
-	padding: 2px 2px 2px 2px;
-	background: #000000;
-	border-color: #000000;
-	border-width: 5px;
-	border-style: solid;
-}
 .videop{
-	width: auto;
+	width: 90%;
 	height: auto;
 	padding: 2px 2px 2px 2px;
 	background: #000000;
 	border-color: #000000;
 	border-width: 5px;
 	border-style: solid;
+    text-align: center;
 	
 }
-.subtitulo{
-	width: auto;
-  	height: auto;
- 	color: #AAAAAA;
- 	font-family: "Akronim";
-  	font-weight: auto;
-  	font-size: auto;
-  	line-height: 2;
-  	text-align: center;
+#subtitulo1{
+    text-align: center;
 }
-.encuentranos{
-	width: auto;
-  	height: auto;
- 	color: #ffffff;
- 	font-family: "Akronim";
-  	font-weight: auto;
-  	font-size: auto;
-  	line-height: 2;
-  	text-align: center;
+.videoStarkerAir1{
+    width: 576px;
+    height: 349px;
+    left: -15px;
+    top: 0px;
 }
