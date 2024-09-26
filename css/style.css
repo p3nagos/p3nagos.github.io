@@ -10,7 +10,7 @@ header{
     width: 100%;
     height: 200px;
     background-color: rgb(0, 0, 0);
-    margin-top: 10px;
+    padding-top: 10px;
 }
 
 .logoGamers{
@@ -61,8 +61,9 @@ ul li:hover a {
 	height: auto;
 	background: #000000;
 	border-color: #000000;
-    text-align: center;
-     
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 	
 }
 .tituloPaginas{
@@ -72,6 +73,7 @@ ul li:hover a {
     margin: 0 auto;
     font-size: 50px;
     color: #ffffff;
+    background-color: #000000;
     font-family: "Chakra Petch", system-ui;
     font-weight: 700;
     display: block;
@@ -141,3 +143,12 @@ ul li:hover a {
     color: rgb(255, 255, 255); 
     font-weight: bold;
   }
+  /* vista movil */
+@media only screen and (max-width: 770px){
+    .videoStarkerAir1{
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+}
