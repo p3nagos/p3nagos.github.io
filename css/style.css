@@ -112,17 +112,20 @@ footer{
     padding-top: 10px;
     position: fixed;
     bottom: 0px;
+    display: inline-flex;
     align-content: center;
-    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
 .logoIg{
-    width: 45px;
-    height: auto;
-    grid-area: logoig;
+    width: auto;
+    height: 20px;
     background-color: #535353;
 }
 #instagram{
-    grid-area: instagram;
+    
     color: #ffffff;
     font-family: "Roboto", system-ui;
     font-weight: 900;
@@ -132,7 +135,7 @@ footer{
 
 }
 #siguenosFooter{
-    grid-area: siguenos;
+    
     font-family: "Roboto", system-ui;
     font-weight: 100;
     font-size: 20px;
