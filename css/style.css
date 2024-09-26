@@ -82,8 +82,7 @@ ul li:hover a {
 	height: auto;
 	background: #000000;
 	border-color: #000000;
-    justify-items: center;
-	align-items: center;
+    text-align: center;
 }
 .tituloPaginas{
     grid-area: titulo;
@@ -99,7 +98,7 @@ ul li:hover a {
     display: block;
 }
 .videoStarkerAir1{
-   width: 800px;
+   width: 600px;
     height: auto;
     margin: 0 auto;
 }
@@ -111,12 +110,9 @@ footer{
     font-size: 15px;
     width: 100%;
     padding-top: 10px;
-    display:grid;
-    grid-template-areas:
-    "siguenos"
-    "logoig instagram" ;
     position: fixed;
     bottom: 0px;
+    align-content: center;
     
 }
 .logoIg{
